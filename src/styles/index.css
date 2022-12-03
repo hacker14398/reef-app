@@ -1,0 +1,57 @@
+/* Reef UI Kit is used by default, you can add other styles here */
+
+.main {
+	min-height: 100vh;
+	/* width: clamp(300px, 75%, 800px) !important; */
+	background: linear-gradient(90deg, #170B3B 0%, #0E050F 100%);
+	padding: 30px;
+}
+
+.container {
+	width: 100%;
+	padding-top: 10px;
+}
+
+
+
+.container .header {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding: 30px;
+}
+
+.container .left {
+	text-align: start;
+}
+
+.container .right {
+	display: flex;
+	justify-content: end;
+}
+
+.container .title {
+	margin-bottom: 1rem;
+}
+
+.container .uik-text {
+	text-align: justify;
+	width: 100%;
+}
+
+.container a {
+	color: #19233c;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.container-button {
+	margin-left: 1rem !important;
+}
