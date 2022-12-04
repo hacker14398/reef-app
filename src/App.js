@@ -21,7 +21,7 @@ const Wrapper = styled.div`
 `
 
 const LeftContent = styled.div`
-	
+	display: flex;
 `
 
 const RightContent = styled.div`
@@ -45,6 +45,9 @@ const MainContent = styled.div`
     background: linear-gradient(90deg, #695E93 0%, #695E80 100%);
     border-radius: 12px;
     border: 1px solid;
+`
+const TextStyle = styled.div`
+	margin: auto 10px;
 `
 
 function App() {
@@ -138,7 +141,10 @@ function App() {
 		<Wrapper>
 				<Header>
 					<LeftContent>
-						<Uik.Text text="Automata Transaction" type="headline" />
+						<Uik.ReefLogo  />
+						<TextStyle>
+							<Uik.Text text="Automata Transaction" type="headline" />
+						</TextStyle>
 					</LeftContent>
 					<RightContent>
 						<Uik.Button
